@@ -1,0 +1,464 @@
+[
+    {
+        "name": "Basic",
+        "colors": [
+            {
+                "name": "Color Picker",
+                "color": "colorPicker"
+            },
+            {
+                "name": "Black",
+                "color": "#000000"
+            },
+            {
+                "name": "White",
+                "color": "#ffffff"
+            },
+            {
+                "name": "Sisal",
+                "color": "#dbd1bd"
+            },
+            {
+                "name": "Stardust",
+                "color": "#9f9e9c"
+            },
+            {
+                "name": "Contessa",
+                "color": "#c78670"
+            },
+            {
+                "name": "Cashmere",
+                "color": "#cfb798"
+            },
+            {
+                "name": "Burnt Sienna",
+                "color": "#eb5c58"
+            },
+            {
+                "name": "Sweet Pink",
+                "color": "#e79191"
+            },
+            {
+                "name": "Torch Red",
+                "color": "#ea0033"
+            },
+            {
+                "name": "Amaranth",
+                "color": "#e73c5c"
+            },
+            {
+                "name": "Nectarine",
+                "color": "#ed7253"
+            },
+            {
+                "name": "Sun",
+                "color": "#f17a35"
+            },
+            {
+                "name": "Cumulus",
+                "color": "#f5f3c0"
+            },
+            {
+                "name": "Copper",
+                "color": "#d78466"
+            },
+            {
+                "name": "Sweet Corn",
+                "color": "#f6d36f"
+            },
+            {
+                "name": "Saffron",
+                "color": "#f6d43d"
+            },
+            {
+                "name": "Honeysuckle",
+                "color": "#e4f255"
+            },
+            {
+                "name": "Flash",
+                "color": "#f9e062"
+            },
+            {
+                "name": "Spearmint",
+                "color": "#9ce695"
+            },
+            {
+                "name": "Conifer",
+                "color": "#a0e050"
+            },
+            {
+                "name": "Spring Leaves",
+                "color": "#588066"
+            },
+            {
+                "name": "Madang",
+                "color": "#bbeaa4"
+            },
+            {
+                "name": "Spray",
+                "color": "#80c2da"
+            },
+            {
+                "name": "Sinbad",
+                "color": "#a9d3cc"
+            },
+            {
+                "name": "Malibu",
+                "color": "#75ace8"
+            },
+            {
+                "name": "Maya Blue",
+                "color": "#54b2f5"
+            },
+            {
+                "name": "San Marino",
+                "color": "#496798"
+            },
+            {
+                "name": "Perano",
+                "color": "#9fc3e4"
+            },
+            {
+                "name": "Pride",
+                "color": "#947def"
+            },
+            {
+                "name": "Perfume",
+                "color": "#b3a4dc"
+            },
+            {
+                "name": "London Hue",
+                "color": "#ae9ba5"
+            },
+            {
+                "name": "Marguerite",
+                "color": "#6d58b8"
+            }
+        ]
+    },
+    {
+        "name": "Delicate",
+        "colors": [
+            {
+                "name": "Regent",
+                "color": "#aacdda"
+            },
+            {
+                "name": "Scandal",
+                "color": "#b6dae0"
+            },
+            {
+                "name": "Onahau",
+                "color": "#c1ebe7"
+            },
+            {
+                "name": "Gallery",
+                "color": "#d8cfcd"
+            },
+            {
+                "name": "Merino",
+                "color": "#e4ddd2"
+            },
+            {
+                "name": "Rice Cake",
+                "color": "#f0ebe0"
+            },
+            {
+                "name": "Dust Storm",
+                "color": "#e7c9c7"
+            },
+            {
+                "name": "Remy",
+                "color": "#f3d7cc"
+            },
+            {
+                "name": "Fantasy",
+                "color": "#f1e1db"
+            },
+            {
+                "name": "Orinoco",
+                "color": "#d8d9b7"
+            },
+            {
+                "name": "Tusk",
+                "color": "#e4e7bb"
+            },
+            {
+                "name": "Carla",
+                "color": "#f0f8c0"
+            },
+            {
+                "name": "Titan",
+                "color": "#ccc2d0"
+            },
+            {
+                "name": "Mischka",
+                "color": "#d7cfde"
+            },
+            {
+                "name": "Fog",
+                "color": "#e2ddf0"
+            }
+        ]
+    },
+    {
+        "name": "Subtle",
+        "colors": [
+            {
+                "name": "Witch Haze",
+                "color": "#fffb7d"
+            },
+            {
+                "name": "Canary",
+                "color": "#fffdaa"
+            },
+            {
+                "name": "Cream",
+                "color": "#fffed4"
+            },
+            {
+                "name": "Frangipani",
+                "color": "#ffdb9d"
+            },
+            {
+                "name": "Bisque",
+                "color": "#ffe6c8"
+            },
+            {
+                "name": "Papaya Whip",
+                "color": "#fff1d7"
+            },
+            {
+                "name": "Pink Lady",
+                "color": "#ffafbe"
+            },
+            {
+                "name": "Pastel Pink",
+                "color": "#ffd1d9"
+            },
+            {
+                "name": "Lavender Blush",
+                "color": "#ffdceb"
+            },
+            {
+                "name": "Cupid",
+                "color": "#f5acd1"
+            },
+            {
+                "name": "Azalea",
+                "color": "#f3c2de"
+            },
+            {
+                "name": "Carousel",
+                "color": "#f7d9ea"
+            },
+            {
+                "name": "Winter Hazel",
+                "color": "#d0c28b"
+            },
+            {
+                "name": "Sapling",
+                "color": "#e6dcad"
+            },
+            {
+                "name": "Scotch Mist",
+                "color": "#f1ebce"
+            }
+        ]
+    },
+    {
+        "name": "Art Deco",
+        "colors": [
+            {
+                "name": "Jaipur",
+                "color": "#ef4056"
+            },
+            {
+                "name": "Wewak",
+                "color": "#f3859b"
+            },
+            {
+                "name": "Sundown",
+                "color": "#f7acb4"
+            },
+            {
+                "name": "Christalle",
+                "color": "#462271"
+            },
+            {
+                "name": "Scampi",
+                "color": "#6e6698"
+            },
+            {
+                "name": "Pigeon Post",
+                "color": "#afb4db"
+            },
+            {
+                "name": "Astral",
+                "color": "#31657f"
+            },
+            {
+                "name": "Bali Hai",
+                "color": "#7f9eb1"
+            },
+            {
+                "name": "Tulum",
+                "color": "#93bfd2"
+            },
+            {
+                "name": "Pacific",
+                "color": "#00b0bd"
+            },
+            {
+                "name": "Seagull",
+                "color": "#78cdd1"
+            },
+            {
+                "name": "Chinook",
+                "color": "#8fcea5"
+            },
+            {
+                "name": "Bayoux",
+                "color": "#687a81"
+            },
+            {
+                "name": "Cloudy",
+                "color": "#b2a8a4"
+            },
+            {
+                "name": "Iron",
+                "color": "#cdd2d5"
+            }
+        ]
+    },
+    {
+        "name": "Art Nouveau",
+        "colors": [
+            {
+                "name": "Stromboli",
+                "color": "#3c635e"
+            },
+            {
+                "name": "Mantle",
+                "color": "#97af8e"
+            },
+            {
+                "name": "Tahuna Sands",
+                "color": "#c4d9a5"
+            },
+            {
+                "name": "Calypso",
+                "color": "#306584"
+            },
+            {
+                "name": "Boston",
+                "color": "#4c99b3"
+            },
+            {
+                "name": "Cornflower",
+                "color": "#92c5eb"
+            },
+            {
+                "name": "Crail",
+                "color": "#a55148"
+            },
+            {
+                "name": "Feldspar",
+                "color": "#d69775"
+            },
+            {
+                "name": "Corvette",
+                "color": "#eeb380"
+            },
+            {
+                "name": "Well Read",
+                "color": "#aa2d3f"
+            },
+            {
+                "name": "Sorbus",
+                "color": "#dc663c"
+            },
+            {
+                "name": "Harvest",
+                "color": "#f0bb72"
+            },
+            {
+                "name": "Spice",
+                "color": "#67463b"
+            },
+            {
+                "name": "Brandy Punch",
+                "color": "#c27a4c"
+            },
+            {
+                "name": "Chamois",
+                "color": "#e8cf97"
+            }
+        ]
+    },
+    {
+        "name": "Exotic",
+        "colors": [
+            {
+                "name": "Indigo",
+                "color": "#7e0091"
+            },
+            {
+                "name": "Eggplant",
+                "color": "#a91b97"
+            },
+            {
+                "name": "Hollywood",
+                "color": "#da0093"
+            },
+            {
+                "name": "Razzmatazz",
+                "color": "#f80063"
+            },
+            {
+                "name": "Rose",
+                "color": "#ff0077"
+            },
+            {
+                "name": "Wild Strawberry",
+                "color": "#ff378d"
+            },
+            {
+                "name": "Scarlett",
+                "color": "#a0000e"
+            },
+            {
+                "name": "Red",
+                "color": "#f00000"
+            },
+            {
+                "name": "Blaze",
+                "color": "#f85e00"
+            },
+            {
+                "name": "Anzac",
+                "color": "#e19d4f"
+            },
+            {
+                "name": "Supernova",
+                "color": "#ffce00"
+            },
+            {
+                "name": "Broom",
+                "color": "#ffe323"
+            },
+            {
+                "name": "Dark Green",
+                "color": "#000018"
+            },
+            {
+                "name": "Sherpa",
+                "color": "#003a4a"
+            },
+            {
+                "name": "Mosque",
+                "color": "#005561"
+            }
+        ]
+    }
+]

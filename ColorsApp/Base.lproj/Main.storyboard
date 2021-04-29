@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ColorsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mV0-Za-jhd">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ism-rP-d4z">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VqB-5a-rVi">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Ism-rP-d4z" secondAttribute="bottom" id="6gZ-Du-vQd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ism-rP-d4z" secondAttribute="trailing" id="VHw-mi-XWm"/>
+                                    <constraint firstItem="Ism-rP-d4z" firstAttribute="leading" secondItem="mV0-Za-jhd" secondAttribute="leading" id="cuk-Ur-CWu"/>
+                                    <constraint firstItem="Ism-rP-d4z" firstAttribute="top" secondItem="mV0-Za-jhd" secondAttribute="top" id="x4b-k0-3k7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mV0-Za-jhd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="C7x-1A-TmV"/>
+                            <constraint firstItem="mV0-Za-jhd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MV0-Ll-KwA"/>
+                            <constraint firstItem="mV0-Za-jhd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OXO-OD-Xl1"/>
+                            <constraint firstItem="mV0-Za-jhd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cEr-vS-TuG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colorsCollectionView" destination="Ism-rP-d4z" id="Hlf-oQ-gsf"/>
+                        <outlet property="editorView" destination="mV0-Za-jhd" id="WfG-iy-0tk"/>
+                        <segue destination="eXa-Yv-oSx" kind="show" identifier="toGradientVC" id="XIo-kl-ljH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="48"/>
+        </scene>
+        <!--GradientVC-->
+        <scene sceneID="lij-Aj-dRq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlV-7c-0Us" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="eXa-Yv-oSx" customClass="GradientVC" customModule="ColorsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tav-iC-Iu1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jYE-ee-nNM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Rk-ng-Qm0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Rk-ng-Qm0" firstAttribute="trailing" secondItem="jYE-ee-nNM" secondAttribute="trailing" id="ETP-rr-AAW"/>
+                            <constraint firstItem="3Rk-ng-Qm0" firstAttribute="bottom" secondItem="jYE-ee-nNM" secondAttribute="bottom" id="RHc-Sx-1Sz"/>
+                            <constraint firstItem="jYE-ee-nNM" firstAttribute="leading" secondItem="3Rk-ng-Qm0" secondAttribute="leading" id="UB4-e5-22A"/>
+                            <constraint firstItem="jYE-ee-nNM" firstAttribute="top" secondItem="3Rk-ng-Qm0" secondAttribute="top" id="s70-Jv-PGW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MyR-VJ-oqo"/>
+                    <connections>
+                        <outlet property="gradientView" destination="jYE-ee-nNM" id="b03-4u-69m"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1119" y="48"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
